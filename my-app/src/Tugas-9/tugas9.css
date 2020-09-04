@@ -1,0 +1,25 @@
+.wrapper-tugas9 {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 200px;
+  border: 1px solid black;
+  padding: 30px 30px 30px 55px;
+  border-radius: 15px;
+  width: 35%;
+}
+h1 {
+  text-align: center;
+}
+
+#button {
+  border-radius: 16px;
+}
+
+#daft {
+  padding-top: 82px;
+}
+
+.paddingbot {
+  padding-bottom: 10px;
+}

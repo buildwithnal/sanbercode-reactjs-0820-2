@@ -1,48 +1,17 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import Tugas9 from "./Tugas-9/tugas9";
+import Tugas10 from "./Tugas-10/tugas10";
+import data from "./Tugas-10/data";
 
-function App() {
-  return (
-    <div className="wrapper">
-      <h1>Form Pembelian Buah</h1>
-      <table style={{ width: "100%" }}>
-        <tbody>
-          <tr>
-            <td className="paddingbot">
-              <b>nama Pelanggan</b>
-            </td>
-            <td className="paddingbot">
-              <input type="text" />
-            </td>
-          </tr>
-          <tr>
-            <td id="daft">
-              <b>Daftar Item</b>
-            </td>
-            <td>
-              <input type="checkbox" />
-              <label htmlFor="vehicle1"> Semangka</label>
-              <br />
-              <input type="checkbox" />
-              <label htmlFor="vehicle2"> Jeruk</label>
-              <br />
-              <input type="checkbox" />
-              <label htmlFor="vehicle3"> Nanas</label>
-              <br />
-              <input type="checkbox" />
-              <label htmlFor="vehicle3"> Salak</label>
-              <br />
-              <input type="checkbox" />
-              <label htmlFor="vehicle3"> Anggur</label>
-              <br />
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <br />
-      <input id="button" type="submit" defaultValue="Submit" />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Tugas9 />
+        <Tugas10 data={data} />
+      </div>
+    );
+  }
 }
 
 export default App;
