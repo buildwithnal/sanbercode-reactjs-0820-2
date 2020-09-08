@@ -1,0 +1,40 @@
+.wrapper-tugas12 {
+  position: relative;
+  padding: 30px 30px 30px 55px;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.table-tugas12 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.table-tugas12 th {
+  background-color: #aaaaaa;
+}
+.table-tugas12 td {
+  background-color: #ff8051;
+}
+
+form {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+form strong {
+  margin-right: 5px;
+}
+form input {
+  margin-right: 20px;
+}
