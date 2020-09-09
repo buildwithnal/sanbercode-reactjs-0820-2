@@ -43,10 +43,11 @@ class tugas12 extends Component {
   };
 
   // Handle edit items
-  // handleEdit = (index) => {
-  //   const { items } = this.state;
-  //   console.log(items);
-  // };
+  handleEdit = (index) => {
+    // const value = e.target.value;
+    let items = this.state.items[index];
+    console.log(items);
+  };
 
   // Handle fields change
   handleChange = (e) => {

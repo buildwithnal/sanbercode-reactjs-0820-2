@@ -10,7 +10,7 @@ export default function ListBuah(props) {
           <td>{el.harga}</td>
           <td>{el.berat / 1000} Kg</td>
           <td className="btn">
-            {/*<button onClick={() => props.handleEdit(index)}>Edit</button>*/}
+            <button onClick={() => props.handleEdit(index)}>Edit</button>
             <button onClick={() => props.handleRemove(index)}>Delete</button>
           </td>
         </tr>
